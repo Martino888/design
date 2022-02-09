@@ -1,0 +1,45 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: rgb(32, 30, 30);
+}
+
+.row{
+    height: 50px;
+    width: 900px;
+}
+
+h2{
+    color: blue;
+}
+
+h3{
+    color: beige;
+}
+
+[class*="col"]{
+    border:none;
+    background-color: blue;
+    color: white;
+}
+.centre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.white{
+    background-color: white;
+}
+
+.black{
+    background-color: black;
+}
+
+.pink{
+    background-color: pink;
+}
